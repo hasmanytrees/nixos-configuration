@@ -1,4 +1,4 @@
-{ config, pkgs, ... };
+{ config, pkgs, ... }:
 
 {
 	imports =
@@ -41,7 +41,7 @@
 		fish
 		termite
 		vim
-		
+
 		atom
 		ubuntu_font_family
 	];
