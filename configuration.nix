@@ -1,8 +1,7 @@
 { config, pkgs, ... }:
 
 {
-	imports =
-	[
+	imports = [
 		./hardware-configuration.nix
 	];
 
@@ -28,8 +27,7 @@
 
 
 	# packages
-	environment.systemPackages = with pkgs;
-	[
+	environment.systemPackages = with pkgs; [
 		wget
 		i3
 		i3lock
@@ -57,8 +55,7 @@
 
 
 	# users
-	users.extraUsers.forrest =
-	{
+	users.extraUsers.forrest = {
 		isNormalUser = true;
 		home = "/home/forrest";
 		description = "Forrest Robertson";
