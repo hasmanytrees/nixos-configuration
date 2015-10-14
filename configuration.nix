@@ -39,7 +39,6 @@
 		fish
 		termite
 		vim
-
 		atom
 		ubuntu_font_family
 	];
